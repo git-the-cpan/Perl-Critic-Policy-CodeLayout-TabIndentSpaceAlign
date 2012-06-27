@@ -34,7 +34,7 @@ my $builder = Module::Build->new(
 	{
 		resources              =>
 		{
-			repository  => 'https://sourceforge.net/p/critictabindent/code',
+			repository  => 'https://sourceforge.net/p/pcritictabspace/code',
 			homepage    => 'https://metacpan.org/release/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign',
 			bugtracker  => 'http://rt.cpan.org/NoAuth/ReportBug.html?Queue=perl-critic-policy-codelayout-tabindentspacealign',
 		},
