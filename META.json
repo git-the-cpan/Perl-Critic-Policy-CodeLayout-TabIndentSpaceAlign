@@ -16,8 +16,8 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "English" : "0",
             "File::Spec" : "0",
+            "Test::FailWarnings" : "0",
             "Test::More" : "0",
             "Test::Perl::Critic::Policy" : "0"
          }
@@ -41,13 +41,13 @@
    "provides" : {
       "Perl::Critic::Policy::CodeLayout::TabIndentSpaceAlign" : {
          "file" : "lib/Perl/Critic/Policy/CodeLayout/TabIndentSpaceAlign.pm",
-         "version" : "v1.0.2"
+         "version" : "v1.0.3"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://rt.cpan.org/NoAuth/ReportBug.html?Queue=perl-critic-policy-codelayout-tabindentspacealign"
+         "web" : "https://github.com/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign/issues"
       },
       "homepage" : "https://metacpan.org/release/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign",
       "license" : [
@@ -57,5 +57,5 @@
          "url" : "https://github.com/guillaumeaubert/Perl-Critic-Policy-CodeLayout-TabIndentSpaceAlign"
       }
    },
-   "version" : "v1.0.2"
+   "version" : "v1.0.3"
 }
